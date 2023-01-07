@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #e0d9cc;
+  font-size: 100%;
+}
+
+.header {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.header img {
+  width: 88px;
+}
+.wrapper {
+  width: 70em;
+  margin: 0 auto;
+}
+
+.nav ul {
+  display: flex;
+  gap: 7.25rem;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 0;
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav ul a:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.columns {
+  display: flex;
+}
+.right-col {
+  display: grid;
+  width: 49%;
+  grid-template-areas:
+    "l1 r1"
+    "l2 r2";
+}
+.right-col img {
+  width: 75%;
+}
+.right col a {
+  width: 25%;
+}
+.left-col {
+  width: 49%;
+}
+.left-card1 {
+  grid-area: l1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.left-card2 {
+  grid-area: l2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.right-card1 {
+  grid-area: r1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.right-card2 {
+  grid-area: r2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: "Merriweather", serif;
+  font-size: 50px;
+}
+.card {
+  text-decoration: none;
+  color: black;
+}
+.cta-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.cta-btns a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+.primary-btn,
+.sec-btn {
+  width: 50%;
+}
+.primary-btn {
+  background-color: orange;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 8px;
+  width: auto;
+  margin: 0 auto;
+}
+.primary-btn:hover {
+  background-color: orange;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 8px;
+  width: auto;
+  margin: 0 auto;
+  scale: 1.1;
+}
+.sec-btn {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.sec-btn:hover {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.sec-text,
+.arrow:hover {
+  cursor: pointer;
+}
+.employee-data {
+  text-align: center;
+  margin-top: 60px;
+  margin-left: -100px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+}
